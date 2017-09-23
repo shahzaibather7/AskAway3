@@ -7,23 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		110045DF1F6A589800D6AA60 /* BaseTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110045DE1F6A589800D6AA60 /* BaseTabBarController.swift */; };
+		110045E11F6B1FA300D6AA60 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110045E01F6B1FA300D6AA60 /* AccountViewController.swift */; };
+		110045E31F6B1FE300D6AA60 /* ResumeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110045E21F6B1FE300D6AA60 /* ResumeViewController.swift */; };
 		119087E51F5A245D009D87B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 119087E41F5A245D009D87B3 /* AppDelegate.swift */; };
-		119087E71F5A245D009D87B3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 119087E61F5A245D009D87B3 /* ViewController.swift */; };
+		119087E71F5A245D009D87B3 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 119087E61F5A245D009D87B3 /* HomeController.swift */; };
 		119087EA1F5A245D009D87B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 119087E81F5A245D009D87B3 /* Main.storyboard */; };
 		119087ED1F5A245D009D87B3 /* AskAway3.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 119087EB1F5A245D009D87B3 /* AskAway3.xcdatamodeld */; };
 		119087EF1F5A245D009D87B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 119087EE1F5A245D009D87B3 /* Assets.xcassets */; };
 		119087F21F5A245D009D87B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 119087F01F5A245D009D87B3 /* LaunchScreen.storyboard */; };
+		119087FC1F5B7299009D87B3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 119087FB1F5B7299009D87B3 /* GoogleService-Info.plist */; };
+		11F997AC1F5B8D22008C71B6 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F997AB1F5B8D22008C71B6 /* TableViewController.swift */; };
+		D3B0A81BA6DAF30658B5C48D /* Pods_AskAway3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B13C26662F36B0E6605DFEBB /* Pods_AskAway3.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		110045DE1F6A589800D6AA60 /* BaseTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTabBarController.swift; sourceTree = "<group>"; };
+		110045E01F6B1FA300D6AA60 /* AccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		110045E21F6B1FE300D6AA60 /* ResumeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResumeViewController.swift; sourceTree = "<group>"; };
 		119087E11F5A245D009D87B3 /* AskAway3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AskAway3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		119087E41F5A245D009D87B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		119087E61F5A245D009D87B3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		119087E61F5A245D009D87B3 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
 		119087E91F5A245D009D87B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		119087EC1F5A245D009D87B3 /* AskAway3.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AskAway3.xcdatamodel; sourceTree = "<group>"; };
 		119087EE1F5A245D009D87B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		119087F11F5A245D009D87B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		119087F31F5A245D009D87B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		119087FB1F5B7299009D87B3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		11F997AB1F5B8D22008C71B6 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		449C66CEDE60AAD0BBB3AB2D /* Pods-AskAway3.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AskAway3.release.xcconfig"; path = "Pods/Target Support Files/Pods-AskAway3/Pods-AskAway3.release.xcconfig"; sourceTree = "<group>"; };
+		B13C26662F36B0E6605DFEBB /* Pods_AskAway3.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AskAway3.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7E7261A7527D68171675A69 /* Pods-AskAway3.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AskAway3.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AskAway3/Pods-AskAway3.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3B0A81BA6DAF30658B5C48D /* Pods_AskAway3.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +57,8 @@
 			children = (
 				119087E31F5A245D009D87B3 /* AskAway3 */,
 				119087E21F5A245D009D87B3 /* Products */,
+				EB81DEC51E1A44FA3713A8B4 /* Pods */,
+				A89AB9F457BBC3EBD7F9A9DE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,14 +74,36 @@
 			isa = PBXGroup;
 			children = (
 				119087E41F5A245D009D87B3 /* AppDelegate.swift */,
-				119087E61F5A245D009D87B3 /* ViewController.swift */,
+				119087E61F5A245D009D87B3 /* HomeController.swift */,
+				11F997AB1F5B8D22008C71B6 /* TableViewController.swift */,
+				110045E21F6B1FE300D6AA60 /* ResumeViewController.swift */,
+				110045E01F6B1FA300D6AA60 /* AccountViewController.swift */,
+				110045DE1F6A589800D6AA60 /* BaseTabBarController.swift */,
 				119087E81F5A245D009D87B3 /* Main.storyboard */,
 				119087EE1F5A245D009D87B3 /* Assets.xcassets */,
 				119087F01F5A245D009D87B3 /* LaunchScreen.storyboard */,
 				119087F31F5A245D009D87B3 /* Info.plist */,
 				119087EB1F5A245D009D87B3 /* AskAway3.xcdatamodeld */,
+				119087FB1F5B7299009D87B3 /* GoogleService-Info.plist */,
 			);
 			path = AskAway3;
+			sourceTree = "<group>";
+		};
+		A89AB9F457BBC3EBD7F9A9DE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B13C26662F36B0E6605DFEBB /* Pods_AskAway3.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EB81DEC51E1A44FA3713A8B4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F7E7261A7527D68171675A69 /* Pods-AskAway3.debug.xcconfig */,
+				449C66CEDE60AAD0BBB3AB2D /* Pods-AskAway3.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +113,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 119087F61F5A245D009D87B3 /* Build configuration list for PBXNativeTarget "AskAway3" */;
 			buildPhases = (
+				7C1E5EEA0ACE15F138FC312F /* [CP] Check Pods Manifest.lock */,
 				119087DD1F5A245D009D87B3 /* Sources */,
 				119087DE1F5A245D009D87B3 /* Frameworks */,
 				119087DF1F5A245D009D87B3 /* Resources */,
+				DD7732A5C6ACDB6C7C4F0F64 /* [CP] Embed Pods Frameworks */,
+				A51D25659FED73B973AF6E48 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -127,6 +169,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				119087F21F5A245D009D87B3 /* LaunchScreen.storyboard in Resources */,
+				119087FC1F5B7299009D87B3 /* GoogleService-Info.plist in Resources */,
 				119087EF1F5A245D009D87B3 /* Assets.xcassets in Resources */,
 				119087EA1F5A245D009D87B3 /* Main.storyboard in Resources */,
 			);
@@ -134,14 +177,78 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7C1E5EEA0ACE15F138FC312F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AskAway3-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A51D25659FED73B973AF6E48 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AskAway3/Pods-AskAway3-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD7732A5C6ACDB6C7C4F0F64 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-AskAway3/Pods-AskAway3-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AskAway3/Pods-AskAway3-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		119087DD1F5A245D009D87B3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				119087E71F5A245D009D87B3 /* ViewController.swift in Sources */,
+				119087E71F5A245D009D87B3 /* HomeController.swift in Sources */,
+				110045E31F6B1FE300D6AA60 /* ResumeViewController.swift in Sources */,
 				119087ED1F5A245D009D87B3 /* AskAway3.xcdatamodeld in Sources */,
+				110045E11F6B1FA300D6AA60 /* AccountViewController.swift in Sources */,
+				110045DF1F6A589800D6AA60 /* BaseTabBarController.swift in Sources */,
 				119087E51F5A245D009D87B3 /* AppDelegate.swift in Sources */,
+				11F997AC1F5B8D22008C71B6 /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,6 +369,7 @@
 		};
 		119087F71F5A245D009D87B3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7E7261A7527D68171675A69 /* Pods-AskAway3.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AskAway3/Info.plist;
@@ -274,6 +382,7 @@
 		};
 		119087F81F5A245D009D87B3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 449C66CEDE60AAD0BBB3AB2D /* Pods-AskAway3.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AskAway3/Info.plist;
@@ -303,6 +412,7 @@
 				119087F81F5A245D009D87B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
