@@ -20,7 +20,7 @@ class BaseTabBarController: UITabBarController {
         let homeViewControllerNav = UINavigationController(rootViewController: homeController)
         homeViewControllerNav.tabBarItem.title = "Home"
         homeViewControllerNav.tabBarItem.image = UIImage(named:"homeIcon")
-        
+      //  homeViewControllerNav.navigationController?.title = "Home"
         
         
         let tableViewControllerNav =  UINavigationController(rootViewController: TableViewController())

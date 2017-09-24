@@ -20,6 +20,8 @@ class HomeController: UICollectionViewController , UICollectionViewDelegateFlowL
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        navigationItem.title = "Home"
+    
      
         collectionView?.backgroundColor = UIColor.white
         collectionView?.register(JobDetailsCell.self, forCellWithReuseIdentifier: cellid)
@@ -65,18 +67,48 @@ class JobDetailsCell: BaseCell {
         return dividerlineView
     }()
     
+    let jobNameLabel : UILabel = {
+       let jobNL = UILabel()
+        jobNL.text = "Software Developer"
+        jobNL.font = UIFont.systemFont(ofSize: 18)
+        return jobNL
+    }()
+    
+    let jobDescriptionLabel : UILabel = {
+        let descriptionLabel = UILabel()
+        descriptionLabel.textColor = UIColor.darkGray
+        descriptionLabel.text = "Job description goes here"
+        descriptionLabel.font = UIFont.systemFont(ofSize: 14)
+        return descriptionLabel
+    }()
+    
+    let timeLabel: UILabel = {
+        let label = UILabel()
+        label.textColor = UIColor.darkGray
+        label.text = "12:30 pm"
+        label.textAlignment = .right
+        label.font = UIFont.systemFont(ofSize: 16)
+        return label
+        }()
+    
+    let hasAppliedImageView : UIImageView = {
+       let imageView = UIImageView()
+        imageView.image = UIImage(named: "done")
+        imageView.contentMode = .scaleAspectFill
+        imageView.layer.masksToBounds = true
+        return imageView
+    }()
+    
+    
     override func setupViews() {
         backgroundColor = UIColor.white
         addSubview(profileImageView)
         addSubview(dividerLineView)
-        
-        
-        
         setupContainerView()
         
         profileImageView.image = UIImage(named: "monet")
         addConstraintsWithFormat(format: "H:|-12-[v0(68)]|", views: profileImageView)
-        addConstraintsWithFormat(format:"V:[v0(68)]" , views: profileImageView)
+        addConstraintsWithFormat(format:"V:[v0(58)]" , views: profileImageView)
         addConstraint(NSLayoutConstraint(item: profileImageView, attribute: NSLayoutAttribute.centerY , relatedBy: NSLayoutRelation.equal, toItem: self, attribute: NSLayoutAttribute.centerY, multiplier: 1, constant: 0))
         
         addConstraintsWithFormat(format:"H:|-82-[v0]|" , views: dividerLineView)
@@ -87,11 +119,21 @@ class JobDetailsCell: BaseCell {
     
     private func setupContainerView(){
         let containerView = UIView()
-        containerView.backgroundColor = UIColor.red
-        addSubview(containerView)
-        
+              addSubview(containerView)
         addConstraintsWithFormat(format: "H:|-90-[v0]|", views: containerView)
         addConstraintsWithFormat(format: "V:[v0(60)]", views: containerView)
+        addConstraint(NSLayoutConstraint(item: containerView, attribute: NSLayoutAttribute.centerY, relatedBy: NSLayoutRelation.equal, toItem: self, attribute:NSLayoutAttribute.centerY , multiplier: 1, constant: 0))
+        
+        containerView.addSubview(jobNameLabel)
+        containerView.addSubview(jobDescriptionLabel)
+        containerView.addSubview(timeLabel)
+        containerView.addSubview(hasAppliedImageView)
+        
+        addConstraintsWithFormat(format: "H:|[v0][v1(80)]-12-|", views: jobNameLabel,timeLabel)
+        addConstraintsWithFormat(format: "V:|[v0][v1(24)]|", views: jobNameLabel,jobDescriptionLabel)
+        addConstraintsWithFormat(format: "H:|[v0]-8-[v1(20)]-12-|", views: jobDescriptionLabel, hasAppliedImageView)
+        addConstraintsWithFormat(format: "V:|[v0(20)]", views: timeLabel)
+        addConstraintsWithFormat(format: "V:[v0(20)]|", views: hasAppliedImageView)
     }
     
 }
